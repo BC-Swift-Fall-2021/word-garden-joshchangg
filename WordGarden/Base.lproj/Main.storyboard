@@ -67,7 +67,7 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="_ _ _ _ _ " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uAq-cf-GgQ">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="_  " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uAq-cf-GgQ">
                                 <rect key="frame" x="16" y="131" width="343" height="32"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
@@ -147,12 +147,12 @@
                         <outlet property="flowerImageView" destination="7Ad-3y-rCI" id="2Vi-gs-neB"/>
                         <outlet property="gameStatusMessageLabel" destination="u5h-a0-bGs" id="lwo-5y-QpT"/>
                         <outlet property="guessLetterButton" destination="bUx-0L-Iq1" id="7ks-ro-csF"/>
-                        <outlet property="guessLetterTextField" destination="wzj-cW-W6O" id="WLI-BG-vze"/>
+                        <outlet property="guessedLetterTextField" destination="wzj-cW-W6O" id="WLI-BG-vze"/>
                         <outlet property="playAgainButton" destination="RkE-PE-FMk" id="KPu-sf-XMt"/>
                         <outlet property="wordsBeingRevealedLabel" destination="uAq-cf-GgQ" id="YWP-3d-ird"/>
                         <outlet property="wordsGuessed" destination="8u0-mO-SZ4" id="HOu-7D-44f"/>
                         <outlet property="wordsGuessedLabel" destination="8u0-mO-SZ4" id="NbV-DB-1OC"/>
-                        <outlet property="wordsInGame" destination="daM-xW-OZ7" id="tsy-8F-k8y"/>
+                        <outlet property="wordsInGameLabel" destination="daM-xW-OZ7" id="tsy-8F-k8y"/>
                         <outlet property="wordsMissedLabel" destination="A9E-Q9-CVF" id="lFk-Co-Ecc"/>
                         <outlet property="wordsRemainingLabel" destination="0Ph-uF-Jgx" id="GKR-Ts-tHM"/>
                     </connections>
